@@ -5,7 +5,7 @@
 This project contains solutions for two problems along with their corresponding unit tests. The project structure is as follows:
 
 pythonProject3/
-│
+│\n
 ├── problem1.py
 ├── problem2.py
 ├── run_tests.py
