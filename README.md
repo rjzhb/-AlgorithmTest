@@ -4,14 +4,15 @@
 
 This project contains solutions for two problems along with their corresponding unit tests. The project structure is as follows:
 
+```plaintext
 pythonProject3/
-│ 
-├── problem1.py 
-├── problem2.py 
-├── run_tests.py 
-└── test/ 
-├── test_problem1.py 
-└── test_problem2.py 
+│
+├── problem1.py
+├── problem2.py
+├── run_tests.py
+└── test/
+    ├── test_problem1.py
+    └── test_problem2.py
 
 
 ### Problem Descriptions
