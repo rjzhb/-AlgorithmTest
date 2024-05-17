@@ -4,7 +4,7 @@
 
 This project contains solutions for two problems along with their corresponding unit tests. The project structure is as follows:
 
-
+<pre>
 pythonProject3/
 │
 ├── problem1.py
@@ -13,6 +13,8 @@ pythonProject3/
 └── test/
     ├── test_problem1.py
     └── test_problem2.py
+</pre>
+
 ### Problem Descriptions
 
 #### Problem 1: Shortest Way to Form String
@@ -28,16 +30,20 @@ Given a list of strings containing parentheses, check if the parentheses are bal
 
 **Example Input:**
 
+<pre>
 "bge)))))))))" 
 "((IIII))))))" 
 "()()()()(uuu" 
 "))))UUUU((()" 
+</pre>
 
 **Example Output:**
+<pre>
 " ?????????" 
 " ????" 
 " x " 
 "???? xx " 
+</pre>
 
 ## Files Description
 
