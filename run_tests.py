@@ -1,6 +1,6 @@
 import unittest
 
-#run all tests at once
+#一次性运行所有的测试
 def run_all_tests():
     loader = unittest.TestLoader()
 

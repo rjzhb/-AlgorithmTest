@@ -4,17 +4,19 @@ class Solution_2:
     def check_parentheses(strings: list) -> list:
         result_list = []
 
+        #遍历字符串
         for text in strings:
+            #用栈来保存
             stack_indices = []
 
-            #init marks
+            #初始化marks
             marks = []
             text_length = len(text)
 
             for _ in range(text_length):
                 marks.append(' ')
 
-            #start check
+            #括号匹配
             for index, char in enumerate(text):
                 if char == '(':
                     stack_indices.append(index)
