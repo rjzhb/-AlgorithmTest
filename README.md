@@ -4,7 +4,6 @@
 
 This project contains solutions for two problems along with their corresponding unit tests. The project structure is as follows:
 
-```plaintext
 pythonProject3/
 │
 ├── problem1.py
@@ -13,8 +12,6 @@ pythonProject3/
 └── test/
     ├── test_problem1.py
     └── test_problem2.py
-```plaintext
-
 ### Problem Descriptions
 
 #### Problem 1: Shortest Way to Form String
