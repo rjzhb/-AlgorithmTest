@@ -5,13 +5,13 @@
 This project contains solutions for two problems along with their corresponding unit tests. The project structure is as follows:
 
 pythonProject3/
-│\n
-├── problem1.py
-├── problem2.py
-├── run_tests.py
-└── test/
-├── test_problem1.py
-└── test_problem2.py
+│ 
+├── problem1.py 
+├── problem2.py 
+├── run_tests.py 
+└── test/ 
+├── test_problem1.py 
+└── test_problem2.py 
 
 
 ### Problem Descriptions
@@ -29,16 +29,16 @@ Given a list of strings containing parentheses, check if the parentheses are bal
 
 **Example Input:**
 
-"bge)))))))))"
-"((IIII))))))"
-"()()()()(uuu"
-"))))UUUU((()"
+"bge)))))))))" 
+"((IIII))))))" 
+"()()()()(uuu" 
+"))))UUUU((()" 
 
 **Example Output:**
-" ?????????"
-" ????"
-" x "
-"???? xx "
+" ?????????" 
+" ????" 
+" x " 
+"???? xx " 
 
 ## Files Description
 
