@@ -1,22 +1,22 @@
 class Solution_1:
 
     @staticmethod
-    def shortestWay(source: str, target: str) -> int:
-        res = 0
+    def shortestway(source: str, target: str) -> int:
+        result = 0
         j = 0
-        m = len(source)
-        n = len(target)
+        source_size = len(source)
+        target_size = len(target)
 
-        while j < n:
+        while j < target_size:
             pre = j
-            for i in range(m):
-                if j < n and source[i] == target[j]:
+            for i in range(source_size):
+                if j < target_size and source[i] == target[j]:
                     j += 1
             if j == pre:
                 return -1
-            res += 1
+            result += 1
 
-        return res
+        return result
 
 
 if __name__ == '__main__':
@@ -24,6 +24,6 @@ if __name__ == '__main__':
     source2, target2 = "abc", "acdbc"
     source3, target3 = "xyz", "xzyxz"
 
-    print(Solution_1.shortestWay(source1, target1))
-    print(Solution_1.shortestWay(source2, target2))
-    print(Solution_1.shortestWay(source3, target3))
+    print(Solution_1.shortestway(source1, target1))
+    print(Solution_1.shortestway(source2, target2))
+    print(Solution_1.shortestway(source3, target3))
